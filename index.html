@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wilson Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand" aria-label="Wilson logo">
+          <div class="brand-mark"><span></span></div>
+          <span class="brand-name">Wilson R</span>
+        </div>
+
+        <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#acerca">Acerca</a>
+          <a href="#portafolio">Portafolio</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="nav-tools" aria-label="Acciones">
+          <button class="circle-icon" id="theme-toggle" type="button" aria-label="Cambiar tema">◌</button>
+          <button class="circle-icon menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="main-nav" aria-expanded="false">☰</button>
+        </div>
+      </header>
+
+      <main class="hero-grid" id="inicio">
+        <section class="hero-copy">
+          <p class="eyebrow">¡Hola! Soy Wilson R</p>
+          <h1>Ingeniero - Web Developer</h1>
+
+          <p class="summary">
+            I enjoy exploring new technologies and creating practical, functional, and visually appealing software solutions.
+            Currently studying Software Development and expanding my skills in web development, database management, and platform integration.
+          </p>
+
+          <div class="cta-row">
+            <a
+              class="btn btn-primary"
+              href="./src/cv-wilson-rojas.pdf"
+              download="cv-wilson-rojas.pdf"
+              type="application/pdf"
+            >
+              Descargar CV
+            </a>
+            <a class="btn btn-secondary" href="https://github.com/werttoledo" target="_blank">GitHub</a>
+          </div>
+
+          <div class="stats-row">
+            <div>
+              <strong>5+</strong>
+              <span>Años</span>
+            </div>
+            <div>
+              <strong>18</strong>
+              <span>Proyectos</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Creativo</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <section class="info-grid" id="acerca">
+        <article class="about-card left-card" id="portafolio">
+          <div class="mini-photo">
+            <img
+              src="src/WhatsApp Image 2026-08-26 at 8.26.17 PM.png"
+              alt="Wilson trabajando"
+            />
+          </div>
+
+          <div class="about-copy">
+            <p class="section-tag">Acerca de mi</p>
+            <h2>Diseño soluciones que se sienten humanas.</h2>
+            <ul class="info-list">
+              <li>💡 Me gusta explorar nuevas tecnologías y crear soluciones prácticas, funcionales y visualmente atractivas.</li>
+              <li>🎓 Actualmente estudio Desarrollo de Software en la Corporación Universitaria Minuto de Dios.</li>
+              <li>🌱 Estoy ampliando habilidades en desarrollo web, bases de datos e integración entre plataformas.</li>
+              <li>✍️ En mi tiempo libre experimento con nuevos lenguajes, diseño con Canva y exploro proyectos creativos.</li>
+            </ul>
+          </div>
+        </article>
+
+        <aside class="profile-card right-card" id="contacto">
+          <div class="headline">
+            <div class="avatar-small">
+              <img
+                src="src/WhatsApp Image 2026-08-26 at 8.26.17 PM.png"
+                alt="Wilson"
+              />
+            </div>
+            <div>
+              <p class="micro">Wilson R</p>
+              <p class="meta">Web Developer</p>
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <p>📍 Villavicencio, Meta, Colombia</p>
+            <p>📧 werttoledo@icloud.com</p>
+            <p>💼 LinkedIn</p>
+          </div>
+
+          <div class="social-list" aria-label="Redes sociales">
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="Behance">◌</a>
+            <a href="#" aria-label="Dribbble">◍</a>
+            <a href="#" aria-label="LinkedIn">◐</a>
+          </div>
+        </aside>
+      </section>
+
+      <section class="details-panel">
+        <div class="story-card">
+          <p class="section-tag">Más sobre mí</p>
+          <h3>Pasión por la tecnología y el desarrollo.</h3>
+          <p>
+            Tengo conocimientos en HTML, CSS, Django, JavaScript, MySQL, Python y C++. Me gusta aprender nuevas herramientas y combinar tecnologías para crear soluciones prácticas, funcionales y visualmente atractivas.
+          </p>
+        </div>
+
+        <div class="tech-card">
+          <p class="section-tag">Tecnologías</p>
+          <div class="pill-group">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>Django</span>
+            <span>MySQL</span>
+            <span>C++</span>
+            <span>Canva</span>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
